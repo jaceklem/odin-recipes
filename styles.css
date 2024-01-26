@@ -4,10 +4,20 @@ body {
 
 h1 {
     font-size: 36px;
+    text-align: center;
 }
 
 h2 {
     font-size: 28px;
+}
+
+img {
+    height: 450px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
 }
 
 ol,
