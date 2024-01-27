@@ -1,3 +1,2 @@
 # odin-recipes
-This repo mainly focusses to use my newly acquired skills in web development
-It will mainly be used to test new things...
+This small project is occasionally updated with new skills acquired. However, over the course of time new recipes will be added and who knows what the future might bring it.
