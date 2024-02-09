@@ -1,0 +1,42 @@
+body {
+    font-family: monospace;
+    background-image: url(https://aboutthetable.com/wp-content/uploads/2019/01/AdobeStock_87952159.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    border-left: 7px dotted black;
+}
+
+h2 {
+    font-size: 28px;
+    border-bottom: 5px solid rgb(177, 180, 180);
+    margin-right: 85%;
+}
+
+img {
+    height: 450px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40%;
+    outline: 2px dotted rgb(177, 180, 180);
+}
+
+ol,
+ul,
+p {
+    font-size: 16px;
+}
+
+ol,
+ul {
+    border-left: 10px double black;
+}
