@@ -1,0 +1,179 @@
+body {
+    font-family: 'Protest Riot', sans-serif;
+    color: rgb(181, 192, 202);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+.body-home {
+    background-image: url(https://aboutthetable.com/wp-content/uploads/2019/01/AdobeStock_87952159.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.body-recipes {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+#carbonara {
+    background-image: url("./images/carbonara.jpg")
+}
+
+#lasagna {
+    background-image: url("./images/lasagna.jpg");
+}
+
+ol {
+    margin-right: 10px;
+}
+
+.header-container {
+    background-color: rgb(109, 161, 60);
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.header {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.date {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.account {
+    display: flex;
+    justify-content: space-around;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.menu-container {
+    background-color: rgb(242, 249, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipes {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+}
+
+.title-container {
+    display: flex;
+    align-items: stretch;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.logo {
+    margin-left: 20px;
+    height: 64px;
+    width: auto;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.github {
+    height: 32px;
+    width: auto;
+    /* margin-right: 5px; */
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    margin-top: 20px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: auto;
+}
+
+.content-item {
+    height: auto;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 20%;
+    outline: 2px solid rgb(181, 192, 202, 10%);
+}
+
+.content-recipes {
+    /* Debugging */
+    /* outline: 2px solid black; */
+    
+    width: 95%;
+    height: auto;
+    margin-top: 20px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-ingredients {
+    margin-left: 10px;
+}
+
+.ingredients-carbonara,
+.ingredients-lasagna {
+    /* Debugging */
+    /* outline: 2px solid white; */
+
+    color: aliceblue;
+    background-color: rgb(114, 184, 74, 80%);
+
+    height: auto; 
+    width: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.instructions-carbonara,
+.instructions-lasagna,
+.stepbystep-lasagna,
+.layer-lasagna {
+    color: aliceblue;
+    background-color: rgb(114, 184, 74, 80%);
+    
+    height: auto; 
+    width: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
